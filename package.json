@@ -1,5 +1,5 @@
 {
-  "name": "portifolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "vue": "^2.6.6",
+    "vue-analytics": "^5.16.4",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },
