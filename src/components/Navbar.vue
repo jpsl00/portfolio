@@ -9,17 +9,23 @@
         <img src="../assets/logo320x320.png">
       </router-link>
 
-      <a role="button" class="navbar-burger burger" data-target="burgerTarget">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
+      <span class="navbar-burger burger" data-target="burgerTarget">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
     </div>
 
     <div id="burgerTarget" class="navbar-menu">
-      <div class="navbar-start">
+      <div class="navbar-end">
         <router-link class="navbar-item" to="/">
           Home
+        </router-link>
+        <router-link class="navbar-item" to="/about">
+          About
+        </router-link>
+        <router-link class="navbar-item" to="/projects">
+          Projects
         </router-link>
       </div>
     </div>
