@@ -16,5 +16,5 @@ new Vue({
 }).$mount('#app')
 
 Vue.use(VueAnalytics, {
-  id: process.env.GA_ID
+  id: process.env.VUE_APP_GA_ID
 })
