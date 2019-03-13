@@ -8,6 +8,21 @@
         <h2 class="subtitle">
           <!-- Full-stack developer --> <!-- I guess? -->
         </h2>
+        <a href="https://github.com/jpsl00">
+          <span class="icon is-medium">
+            <fa :icon="['fab', 'github']" size="lg" />
+          </span>
+        </a>
+        <a href="https://gitlab.com/jpsl00">
+          <span class="icon is-medium">
+            <fa :icon="['fab', 'gitlab']" size="lg" />
+          </span>
+        </a>
+        <a href="https://twitter.com/jpsl00">
+          <span class="icon is-medium">
+            <fa :icon="['fab', 'twitter']" size="lg" />
+          </span>
+        </a>
       </div>
     </div>
 
